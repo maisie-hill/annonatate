@@ -3,21 +3,38 @@ canvas: "https://www.digitalcollections.manchester.ac.uk/iiif/MS-GASTER-AMULET-0
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
+            "created": "2023-11-14T11:39:31.820Z",
+            "creator": {
+                "id": "maisie-hill",
+                "name": "maisie-hill"
+            },
+            "modified": "2023-11-14T11:39:36.016Z",
+            "purpose": "commenting",
             "type": "TextualBody",
-            "value": "For babies?",
+            "value": "For babies?"
+        },
+        {
+            "type": "TextualBody",
+            "value": "I think so boo",
             "purpose": "commenting",
             "creator": {
                 "id": "maisie-hill",
                 "name": "maisie-hill"
             },
-            "created": "2023-11-14T11:39:31.820Z",
-            "modified": "2023-11-14T11:39:36.016Z"
+            "created": "2023-11-14T11:41:44.907Z",
+            "modified": "2023-11-14T11:41:47.675Z"
         }
     ],
+    "id": "fcce6f6e-304d-486c-a1d6-0e231ea73140.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"4273.327880859375\" cy=\"935.6060485839844\" r=\"748.1599115595697\"></circle></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-GASTER-AMULET-00003",
@@ -25,13 +42,7 @@ order: 1
             },
             "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-GASTER-AMULET-00003/canvas/1",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><circle cx=\"4273.327880859375\" cy=\"935.6060485839844\" r=\"748.1599115595697\"></circle></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "fcce6f6e-304d-486c-a1d6-0e231ea73140.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
