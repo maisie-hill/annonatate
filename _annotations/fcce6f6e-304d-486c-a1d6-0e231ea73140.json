@@ -18,23 +18,19 @@ order: 1
         },
         {
             "type": "TextualBody",
-            "value": "I think so boo",
+            "value": "choking hazard",
             "purpose": "commenting",
             "creator": {
                 "id": "maisie-hill",
                 "name": "maisie-hill"
             },
-            "created": "2023-11-14T11:41:44.907Z",
-            "modified": "2023-11-14T11:41:47.675Z"
+            "created": "2023-11-14T11:42:32.164Z",
+            "modified": "2023-11-14T11:42:34.398Z"
         }
     ],
     "id": "fcce6f6e-304d-486c-a1d6-0e231ea73140.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><circle cx=\"4273.327880859375\" cy=\"935.6060485839844\" r=\"748.1599115595697\"></circle></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-GASTER-AMULET-00003",
@@ -42,6 +38,10 @@ order: 1
             },
             "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-GASTER-AMULET-00003/canvas/1",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"2353.583252228028\" cy=\"4776.514923095703\" r=\"1892.387939178222\"></circle></svg>"
         }
     },
     "type": "Annotation"
