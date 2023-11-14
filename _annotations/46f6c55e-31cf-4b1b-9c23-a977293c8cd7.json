@@ -1,0 +1,37 @@
+---
+canvas: "https://www.digitalcollections.manchester.ac.uk/iiif/MS-GASTER-AMULET-00003/canvas/1"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "i think for babies, but choking hazard",
+            "purpose": "commenting",
+            "creator": {
+                "id": "maisie-hill",
+                "name": "maisie-hill"
+            },
+            "created": "2023-11-14T11:44:41.299Z",
+            "modified": "2023-11-14T11:44:50.169Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-GASTER-AMULET-00003",
+                "type": "Manifest"
+            },
+            "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-GASTER-AMULET-00003/canvas/1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1947.9913330078125,2916.24609375 87.72208404541016,4885.94287109375 3720.718505859375,6396.0439453125 4453.88330078125,4710.85888671875 3556.5771484375,3824.4951171875\"></polygon></svg>"
+        }
+    },
+    "id": "46f6c55e-31cf-4b1b-9c23-a977293c8cd7.json",
+    "motivation": "commenting"
+}
